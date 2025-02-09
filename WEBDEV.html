@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css" />
+<title>Luke Narca - Creative Portfolio</title>
+
+</head>
+<body>
+<nav class="navbar">
+    <div class="logo">Luke Narca - Creative Portfolio</div>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+<div class="container">
+    <img src="ATN05098.jpg" alt="Profile Picture" class="profile-pic">
+    <div class="text-content">
+        <h1>Hi, my name is <span class="highlight">Luke Narca.</span></h1>
+        <p>I am multimedia designer and a 3rd year IDS-MT student from Ateneo de Davao University.</p>
+        
+        <h2><span class="skill">Skills</span></h2>
+        <ul>
+            <li>Videography/Photography</li>
+            <li>Drone Flying</li>
+            <li>Editing</li>
+            <li>Design</li>
+        </ul>
+    
+        <h2><span class="hobby">Hobbies</span></h2>
+        <p>I like to ride mountain bikes on the rocky terrain, I like to travel and go places. Do some business and networking when I have the time.</p>
+        <button class="cta-button" onclick="playVideo()">click for surprise</button>
+        
+        <video id="surpriseVideo" src="Rick Astley - Never Gonna Give You Up (Official Music Video).mp4" autoplay loop style="display:none;"></video>
+    </div>
+</div>
+<script>
+    function playVideo() {
+        var video = document.getElementById('surpriseVideo');
+        video.style.display = 'block';
+        video.play();
+    }
+</script>
+    </div>
+</div>
+</body>
+    </html>

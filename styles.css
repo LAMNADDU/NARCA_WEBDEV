@@ -1,0 +1,76 @@
+
+    body {
+        margin: 0;
+        font-family: "DM Sans", sans-serif;
+        background: linear-gradient(#181818, #0f0c29, #302b63, #181818);
+        color: white;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background: linear-gradient(135degs,#181818, #302b63, #181818);
+    }
+    .navbar ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+    .navbar ul li {
+        display: inline;
+    }
+    .navbar ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+        padding: 0 10%;
+    }
+    .logo{
+        font-size: 24px;
+        font-weight: 700;
+        color: #c4f000;
+    }
+
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    object-fit: cover;
+    border: 5px solid white;
+    margin-right: 40px;
+}
+.text-content {
+    max-width: 600px;
+}
+.highlight {
+    color: #c4f000;
+    animation: highlightAnimation 1.5s infinite alternate;
+    text-size-adjust: 20px;
+}
+@keyframes highlightAnimation {
+    from { color: white; }
+    to { color: #c4f000; }
+}
+.skill{
+    color: #f000a8;
+}
+.hobby {
+    color: #f08000;
+}
+.cta-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #c4f000;
+    color: black;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+}
