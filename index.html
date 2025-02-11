@@ -43,10 +43,26 @@
     function playVideo() {
         var video = document.getElementById('surpriseVideo');
         video.style.display = 'block';
-        video.play();
-    }
+       video.play();
+  }
 </script>
     </div>
+
+
+    <footer class="main-footer">
+        <p>
+            &copy;Copyright <a href="index.html">Luke Narca</a> All
+            Rights Reserved. <span id = "currentYear">2025</span>
+            <script>
+                const currentDate = new Date();
+                const currentYear = currentDate.getFullYear();
+                document.getElementById('currentYear').textContent = currentYear;
+            </script>
+        </p>
+                             
+    </footer>
+
+
 </div>
 </body>
     </html>

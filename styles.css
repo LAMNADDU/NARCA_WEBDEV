@@ -2,7 +2,7 @@
     body {
         margin: 0;
         font-family: "DM Sans", sans-serif;
-        background: linear-gradient(#181818, #0f0c29, #302b63, #181818);
+        background:  linear-gradient(#181818, #0f0c29, #302b63, #181818);
         color: white;
     }
     .navbar {
@@ -89,4 +89,10 @@ button:hover{
         top:50%;
         left:50%;
         transform-translate: (-50%, -50%);
+    }
+
+    .main-footer {
+        display: flex;
+        justify-content: center;
+        font-weight: bolder;
     }
