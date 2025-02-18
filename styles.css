@@ -93,6 +93,16 @@ button:hover{
 
     .main-footer {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         font-weight: bolder;
+    }
+    .socials {
+        display: flex;
+        gap: 1000;
+        align-items: center;
+    }
+    .socials img{
+        width: 30px;
+        height: 30px;
     }
